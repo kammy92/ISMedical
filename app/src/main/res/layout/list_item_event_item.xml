@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="@dimen/cardview_default_radius"
+    card_view:cardElevation="@dimen/cardview_elevation">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/rl1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/activity_margin">
+            <ImageView
+                android:id="@+id/ivItemImage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="fitXY"/>
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:visibility="visible"/>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tvItemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl1"
+            android:gravity="center"
+            android:lines="2"
+            android:maxLines="2"
+            android:padding="@dimen/activity_margin_extra_small"
+            android:text="EVENT SCHEDULE"
+            android:textColor="@color/primary_text2"
+            android:textSize="@dimen/text_size_extra_small"/>
+        <RelativeLayout
+            android:id="@+id/rlItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/iv1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/activity_margin"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv1"
+                android:gravity="center"
+                android:lines="2"
+                android:maxLines="2"
+                android:padding="@dimen/activity_margin_extra_small"
+                android:textColor="@color/primary_text2"
+                android:textSize="@dimen/text_size_extra_small"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

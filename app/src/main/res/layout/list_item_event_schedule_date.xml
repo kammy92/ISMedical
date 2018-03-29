@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rlItem"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/ivDate"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/activity_margin_small"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl1"
+        android:gravity="center"
+        android:padding="@dimen/activity_margin_extra_small"
+        android:text="21/10/2017"
+        android:textColor="@color/primary_text2"
+        android:textSize="@dimen/text_size_extra_small"/>
+    <TextView
+        android:id="@+id/tvFooterLine"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/tvDate"
+        android:layout_marginLeft="@dimen/activity_margin_small"
+        android:layout_marginRight="@dimen/activity_margin_small"
+        android:background="@color/primary_text2"
+        android:gravity="center_horizontal"/>
+</RelativeLayout>

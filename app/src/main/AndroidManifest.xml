@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.indiasupply.ismedical"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.indiasupply.ismedical.activity.SplashScreenActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.indiasupply.ismedical.activity.EventDetailActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name="com.indiasupply.ismedical.activity.IntroActivity"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/WelcomeScreenTheme"/>
+
+        <activity android:name="com.indiasupply.ismedical.activity.LoginActivity"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/LoginScreenTheme"
+                  android:windowSoftInputMode="adjustResize"/>
+
+        <activity
+            android:name="com.indiasupply.ismedical.activity.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="indiasupply.com" android:scheme="http"/>
+                <data android:host="indiasupply.com" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+
+
+        <service android:name="com.indiasupply.ismedical.service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <service android:name="com.indiasupply.ismedical.service.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <receiver android:name="com.indiasupply.ismedical.receiver.SmsReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.indiasupply.ismedical.receiver.NotificationReceiver">
+        </receiver>
+
+        <meta-data android:name="com.bugsnag.android.API_KEY"
+                   android:value="b2b4c756b3b88a72891033fa275309db"/>
+
+    </application>
+
+</manifest>

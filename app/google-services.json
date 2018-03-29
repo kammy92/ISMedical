@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "523962902567",
+    "firebase_url": "https://indiasupply-medical-app.firebaseio.com",
+    "project_id": "indiasupply-medical-app",
+    "storage_bucket": "indiasupply-medical-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523962902567:android:b4bd651ff48d901e",
+        "android_client_info": {
+          "package_name": "com.indiasupply.ismedical"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523962902567-2hore9h25h09t1kb19n21658bbqbl9e3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.indiasupply.ismedical",
+            "certificate_hash": "2947d006e21b4849370b9d2f20ec596b9230492c"
+          }
+        },
+        {
+          "client_id": "523962902567-7o3s3mtf7rtjep8c6ls9s03soliajug5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.indiasupply.ismedical",
+            "certificate_hash": "67bd3a0b6620d6d46e49d7d0da0186d166942248"
+          }
+        },
+        {
+          "client_id": "523962902567-q200mdms8l5cti8c03k8bupba1f7h9ga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmuY1iL9JFxw19Zn7BjHgzqKs02n2b3uQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523962902567-q200mdms8l5cti8c03k8bupba1f7h9ga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

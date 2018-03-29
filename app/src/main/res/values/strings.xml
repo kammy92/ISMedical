@@ -1,0 +1,182 @@
+<resources>
+    <string name="app_name">IndiaSupply - Medical App</string>
+
+
+    <!-- EditText Error Strings -->
+    <string name="please_enter_name">Please enter Username</string>
+    <string name="please_enter_email">Please enter Email</string>
+    <string name="please_enter_mobile">Please enter Mobile</string>
+    <string name="please_enter_valid_email">Please enter valid Email</string>
+    <string name="please_enter_valid_mobile">Please enter valid Mobile</string>
+    <string name="please_select_user_type">Please select user type</string>
+    <string name="otp_didnt_match">OTP didn\'t match</string>
+    <string name="please_enter_otp"></string>
+
+
+    <string name="Rs">\u20B9</string>
+
+
+    <string name="activity_login_hint_full_name">Full Name</string>
+    <string name="activity_login_hint_email">Email Address</string>
+    <string name="activity_login_hint_mobile">Mobile</string>
+    <string name="activity_login_button_submit">SUBMIT</string>
+    <string name="activity_login_text_i_agree">You agree to our Term and Condition and Privacy
+        Policy
+    </string>
+    <string name="activity_login_text_check_term_condition">Please check our Term And Condition
+    </string>
+
+    <string name="activity_login_text_terms_and_conditions">By signing up you confirm that you have
+        read &amp; agree to our company Privacy Policy &amp; Terms and Conditions
+    </string>
+
+
+    <string name="activity_main_text_no_service_found">No Services Found</string>
+    <string name="activity_main_text_powered_by">powered by</string>
+
+
+    <string name="activity_exhibitor_list_title">EXHIBITOR LIST</string>
+    <string name="activity_exhibitor_list_text_no_exhibitor_found">No Exhibitor Found</string>
+
+
+    <string name="activity_event_list_text_no_programme_found">No Event Found</string>
+
+
+    <string name="activity_session_list_text_no_session_found">No Session Found</string>
+
+
+    <string name="activity_hall_plan_title">HALL PLAN</string>
+
+    <string name="activity_my_favourites_title">MY FAVOURITES</string>
+
+    <string name="activity_event_detail_title">EVENT DETAIL</string>
+
+    <string name="activity_shop_online_title">Shop Online</string>
+    <string name="activity_shop_online_back_button">Back</string>
+
+    <string name="activity_brands_contact_details_title">BRANDS CONTACT DETAILS</string>
+
+
+    <string name="activity_brand_list_title">Brand List</string>
+    <string name="activity_brand_list_back_button">Back</string>
+
+
+    <string name="activity_event_list_title">Event List</string>
+    <string name="activity_event_list_back_button">Back</string>
+
+
+    <string name="activity_information_title">About Us</string>
+    <string name="activity_information_back_button">Back</string>
+    <string name="activity_information_text_1">ISDental comes from IndiaSupply - market leader in
+        providing digital solutions to dental practitioners.
+    </string>
+    <string name="activity_information_text_2">Tired of carrying offer sheets, collecting visting
+        cards only to not finding them when you
+        need them?
+
+        With over 190+ Exhibitors of various expos listed on this app you don\'t need to carry
+        visiting cards, offers sheets, catalogs etc. All of it and much more is now available on
+        your mobile screens
+
+        The expo is over and you still want to take a look at the offers?
+
+        Worry not! We got you covered. Find all exhibitors with their contact details and offers
+        listed.
+
+        There\'s too much happening in the dental industry and you can\'t keep track?
+
+        Read up on what is going to be covered in the scientific sessions and access the schedule of
+        conferences and courses being conducted around the country
+    </string>
+    <string name="activity_information_text_3"></string>
+    <string name="activity_information_text_4"></string>
+
+
+    <string name="dialog_text_quit_application">Do you want to quit the application?</string>
+    <string name="dialog_text_auto_fill">Do you want to auto fill the details?</string>
+    <string name="dialog_text_remove_favourite_exhibitor">Do you want to remove this exhibitor from
+        your
+        favourites?
+    </string>
+    <string name="dialog_text_add_favourite_exhibitor">Do you want to add this exhibitor to your
+        favourites?
+    </string>
+
+    <string name="dialog_text_remove_favourite_programme">Do you want to remove this event from
+        your
+        favourites?
+    </string>
+    <string name="dialog_text_add_favourite_programme">Do you want to add this event to your
+        favourites?
+    </string>
+    <string name="dialog_text_remove_favourite_session">Do you want to remove this session from your
+        favourites?
+    </string>
+    <string name="dialog_text_add_favourite_session">Do you want to add this session to your
+        favourites?
+    </string>
+
+
+    <string name="dialog_text_add_notes">Add Notes</string>
+    <string name="dialog_text_enter_otp">Enter the OTP sent to mobile number</string>
+
+
+    <string name="progress_dialog_text_loading">Loading&#8230;</string>
+    <string name="progress_dialog_text_generating_survey">Generating Survey&#8230;</string>
+    <string name="progress_dialog_text_logging_out">Logging Out&#8230;</string>
+    <string name="progress_dialog_text_logging_in">Logging In&#8230;</string>
+    <string name="progress_dialog_text_please_wait">Please wait&#8230;</string>
+    <string name="progress_dialog_text_sending_request">Sending Request&#8230;</string>
+    <string name="progress_dialog_text_submitting_responses">Submitting Responses&#8230;</string>
+    <string name="progress_dialog_text_initializing">Initializing Application&#8230;\nThis may take
+        some time
+    </string>
+
+    <string name="snackbar_text_no_internet_connection_available">No Internet Connection available
+    </string>
+    <string name="snackbar_text_error_occurred">Error Occurred</string>
+    <string name="snackbar_text_unstable_internet">Unstable Internet Connection</string>
+    <string name="snackbar_text_exception_occurred">Exception Occurred</string>
+    <string name="snackbar_text_invalid_access_pin">Invalid Access PIN</string>
+
+    <string name="snackbar_action_go_to_settings">GO TO SETTINGS</string>
+    <string name="snackbar_action_dismiss">DISMISS</string>
+    <string name="snackbar_action_retry">RETRY</string>
+
+    <string name="snackbar_action_undo">UNDO</string>
+
+
+    <string name="dialog_text_new_version_available">New version of the application is available.
+        Please update
+    </string>
+
+
+    <string name="dialog_hint_optional">optional</string>
+
+    <string name="dialog_action_yes">YES</string>
+    <string name="dialog_action_no">NO</string>
+    <string name="dialog_action_ok">OK</string>
+    <string name="dialog_action_cancel">CANCEL</string>
+    <string name="dialog_action_save">SAVE</string>
+    <string name="dialog_action_logout">LOGOUT</string>
+    <string name="dialog_action_submit">SUBMIT</string>
+    <string name="dialog_action_resend_otp">RESEND OTP</string>
+    <string name="dialog_action_proceed">PROCEED</string>
+    <string name="dialog_action_ignore">IGNORE</string>
+    <string name="dialog_action_update">UPDATE</string>
+    <string name="dialog_action_close">CLOSE</string>
+    <string name="dialog_action_show_all">SHOW ALL</string>
+
+
+    <string name="facebook_app_id">1050784248336887</string>
+
+    <string name="dialog_enter_product_brand">Please Enter Brand.</string>
+    <string name="dialog_select_product_category">Please Select Category</string>
+    <string name="dialog_enter_model_number">Please Enter Model Number</string>
+    <string name="dialog_enter_serial_number">Please Enter Serial Number</string>
+    <string name="dialog_select_purchase_date">Please Select Purchase Date</string>
+
+    <string name="dialog_enter_request_description">Please Enter Request Description</string>
+    <string name="dialog_enter_product_description">Please Enter Product Description</string>
+
+</resources>

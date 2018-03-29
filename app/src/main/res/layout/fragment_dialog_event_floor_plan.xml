@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/text_color_white">
+    <ImageView
+        android:id="@+id/ivCancel"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:padding="@dimen/activity_margin"
+        android:src="@drawable/ic_close"/>
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivCancel"
+        android:layout_alignTop="@+id/ivCancel"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Floor Plan"
+        android:textColor="@color/primary_text2"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold"/>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:padding="@dimen/activity_margin"
+        android:visibility="gone"/>
+    <View
+        android:id="@+id/v1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/ivCancel"
+        android:background="@color/text_color_grey_light2"/>
+    <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+        android:id="@+id/ivFloorPlan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/v1"
+        android:visibility="gone"/>
+</RelativeLayout>
