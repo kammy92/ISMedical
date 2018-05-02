@@ -4,7 +4,6 @@ public class AppConfigURL {
     public static String version2 = "v1.0";
     //    public static String BASE_URL2 = "https://project-isdental-cammy92.c9users.io/api/" + version2 + "/";
     public static String BASE_URL2 = "http://34.210.142.70/ismedical/api/" + version2 + "/";
-    
 //    public static String BASE_URL2 = "http://18.218.99.134/medical_app/api/" + version2 + "/";
     
     public static String URL_HOME_EVENT = BASE_URL2 + "home/events";
