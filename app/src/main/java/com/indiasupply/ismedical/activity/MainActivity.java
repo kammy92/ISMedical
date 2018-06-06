@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
     
     boolean doubleBackToExitPressedOnce = false;
     
+    
     int notification_type = 0;
     int event_id = 0;
     int offer_id = 0;
